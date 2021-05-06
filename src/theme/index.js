@@ -86,8 +86,7 @@ export default {
       position: 'relative',
     },
     shopify: {
-      pt: [8, null, 9, null, null, 10],
-      pb: [0, null, null, 2, 5],
+      py: [8, null, 9, null, null, 10],
       position: 'relative',
     },
     customSoftware: {

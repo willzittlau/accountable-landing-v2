@@ -4,7 +4,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoLogoInstagram, IoLogoLinkedin, IoMdClose, IoMdMenu } from 'react-icons/io';
-import { Link } from 'react-scroll';
+import {Link} from 'components/link';
 import menuItems from './header.data';
 
 const social = [
@@ -52,7 +52,7 @@ const MobileDrawer = () => {
             {menuItems.map(({ path, label }, i) => (
               <Link
                 activeClass="active"
-                to={path}
+                path={path}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -129,7 +129,8 @@ const styles = {
     a: {
       fontSize: '16px',
       fontWeight: '500',
-      color: 'text_white',
+      color: '#000',
+      textDecoration: 'none',
       py: '15px',
       cursor: 'pointer',
       borderBottom: '1px solid #e8e5e5',
