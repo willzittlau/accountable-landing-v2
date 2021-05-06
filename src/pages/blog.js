@@ -8,9 +8,9 @@ export default function BlogPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO
-          description="Plan your bedtime for better sleeps!"
-          title="sleeptyme blog"
+      <SEO
+          description="become a better you"
+          title="accountable. | Blog"
         />
       </Layout>
     </ThemeProvider>

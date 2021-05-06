@@ -37,11 +37,11 @@ export default {
       label: 'Home',
     },
     {
-      path: 'mailto:hello@dovetaildigital.ca',
+      path: 'mailto:hi@willz.dev',
       label: 'Contact',
     },
     {
-      path: '/',
+      path: '/privacy',
       label: 'Privacy',
     },
   ],
@@ -67,15 +67,15 @@ export default {
   ],
   socials: [
     {
-      path: '/',
-      label: 'Apple App Store',
-      name: 'Apple App Store',
+      path: 'https://www.linkedin.com/company/getaccountable/',
+      label: 'LinkedIn',
+      name: 'LinkedIn',
       icon: <IoLogoLinkedin />,
     },
     {
-      path: '/',
-      label: 'Apple App Store',
-      name: 'Apple App Store',
+      path: 'https://www.instagram.com/getaccountable/',
+      label: 'Instagram',
+      name: 'Instagram',
       icon: <IoLogoInstagram />,
     },
   ],

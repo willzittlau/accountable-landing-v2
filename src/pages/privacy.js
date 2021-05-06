@@ -10,8 +10,8 @@ export default function PrivacyPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          description="Plan your bedtime for better sleeps!"
-          title="sleeptyme blog"
+          description="become a better you"
+          title="accountable. | Privacy"
         />
         <Privacy/>
       </Layout>

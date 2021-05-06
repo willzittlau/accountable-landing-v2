@@ -40,23 +40,22 @@ const OUR_WALLET_DATA = {
     {
       icon: button1,
       label: 'App Store',
-      link: '#',
+      link: 'javascript:;',
     },
     {
       icon: button2,
       label: 'Play Store',
-      link: 'https://play.google.com/store/apps/details?id=ca.underscoresoftware.sleeptyme',
+      link: 'javascript:;',
     },
     {
       icon: button3,
       label: 'Launch PWA',
-      link: 'https://sleeptyme.ca/#/',
+      link: 'javascript:;',
     },
   ],
 };
 const Hero = () => {
   const {
-    heroThumb,
     title,
     text,
     tagLine,
@@ -69,7 +68,7 @@ const Hero = () => {
         <Flex sx={styles.row}>
           <Box sx={styles.thumbWrap}>
             <Image
-              src={heroThumb}
+              src={heroImage}
               alt="App Mockup"
               width={615}
               height={770}
@@ -90,14 +89,14 @@ const Hero = () => {
             </Box>
             <Box sx={styles.buttonWrap}>
               {buttons.map(({ icon, link, label }, index) => (
-                <NewTab
+                <Link
                   sx={styles.button}
                   path={link}
                   key={`button-key-${index}`}
                 >
                   <Img src={icon} alt="button icon" />
                   {label}
-                </NewTab>
+                </Link>
               ))}
             </Box>
             <Text as="span">{tagLine}</Text>

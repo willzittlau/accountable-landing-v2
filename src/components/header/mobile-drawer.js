@@ -3,23 +3,22 @@ import { Box } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { DrawerContext } from '../../contexts/drawer/drawer.context';
-import { IoMdClose, IoMdMenu } from 'react-icons/io';
+import { IoLogoInstagram, IoLogoLinkedin, IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import { IoLogoPwa, IoLogoApple, IoLogoGooglePlaystore } from "react-icons/io5";
 import menuItems from './header.data';
 
 const social = [
   {
-    path: 'https://play.google.com/store/apps/details?id=ca.underscoresoftware.sleeptyme',
-    icon: <IoLogoGooglePlaystore />,
+    path: 'https://www.linkedin.com/company/getaccountable/',
+    label: 'LinkedIn',
+    name: 'LinkedIn',
+    icon: <IoLogoLinkedin />,
   },
-  // {
-  //   path: '/',
-  //   icon: <IoLogoApple />,
-  // },
   {
-    path: 'https://sleeptyme.ca/#/',
-    icon: <IoLogoPwa />,
+    path: 'https://www.instagram.com/getaccountable/',
+    label: 'Instagram',
+    name: 'Instagram',
+    icon: <IoLogoInstagram />,
   },
 ];
 
@@ -84,7 +83,7 @@ const MobileDrawer = () => {
 
 const styles = {
   handler: {
-    color: 'white',
+    color: '#000',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

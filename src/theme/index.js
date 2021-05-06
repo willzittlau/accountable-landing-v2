@@ -75,7 +75,7 @@ export default {
     hero: {
       pt: '150px',
       display: 'flex',
-      height: '100vh',
+      minHeight: '100vh',
     },
     privacy: {
       pt: '180px',
