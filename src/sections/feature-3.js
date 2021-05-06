@@ -8,9 +8,9 @@ import ProfitThumb from 'assets/images/report.png';
 
 const data = {
   title:
-    'Set goals',
+    'Create success',
   description:
-    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Holding yourself accountable to your goals is the key to building trust within yourself. With this trust comes confidence, and that confidence will allow you to reach those goals. Success is a lifestyle, and we help you maintain it.',
     // btnName: 'Get in touch',
     // btnURL: 'mailto:hello@dovetaildigital.ca',
     // points: [

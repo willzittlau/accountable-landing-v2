@@ -10,7 +10,7 @@ import KnowledgeThumb from 'assets/images/clock.png';
 const data = {
   title: 'Build a healthier lifestyle',
   description:
-    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Whether that means starting that new activity and making it a part of your daily routine or cutting out an addiction, keeping yourself accountable will guide you towards a healthier life.',
     // btnName: 'Get in touch',
     // btnURL: 'mailto:hello@dovetaildigital.ca',
     // points: [

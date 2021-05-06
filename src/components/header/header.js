@@ -95,6 +95,9 @@ const styles = {
       '&.active': {
         color: 'primary',
       },
+      '&:hover': {
+        color: 'primary',
+      },
     },
   },
 };

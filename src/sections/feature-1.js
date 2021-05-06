@@ -11,20 +11,20 @@ const data = {
   title:
     'Keep track of habits',
   description:
-    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    'Start building daily habits and keep track of them here. See your current streak, best, average, and number of resets to keep you on track',
   // btnName: 'Get in touch',
   // btnURL: '/',
   // points: [
   //   {
-  //     icon: <IoIosCheckmarkCircle color="#83C1C0" />,
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
   //     text: '3D modelling services',
   //   },
   //   {
-  //     icon: <IoIosCheckmarkCircle color="#83C1C0" />,
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
   //     text: 'Variety of filament materials and colors',
   //   },
   //   {
-  //     icon: <IoIosCheckmarkCircle color="#83C1C0" />,
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
   //     text: 'On demand printing',
   //   },
   // ],
