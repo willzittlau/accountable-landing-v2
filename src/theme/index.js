@@ -77,6 +77,10 @@ export default {
       display: 'flex',
       height: '100vh',
     },
+    privacy: {
+      pt: '180px',
+      pb: '50px'
+    },
     printing: {
       py: [8, null, 9, null, null, 10],
       position: 'relative',
