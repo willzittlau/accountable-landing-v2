@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        font-size: 299.999px;
+        fill: #fff;
+        font-family: "Cooper Black";
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="50" cy="50" r="50"/>
+  <text id="a." class="cls-2" transform="translate(18.125 64.375) scale(0.25)">a.</text>
+</svg>

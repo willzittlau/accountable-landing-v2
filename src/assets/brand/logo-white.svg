@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 340.153px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+        font-family: CookiesLoverEmpty, "Cookies Lover";
+      }
+
+      .cls-2 {
+        font-size: 283.461px;
+      }
+
+      .cls-3 {
+        font-size: 226.769px;
+      }
+    </style>
+  </defs>
+  <text id="big_Z" data-name="big Z" class="cls-1" transform="translate(5.37 90.923) scale(0.172)">Z</text>
+  <text id="middle_Z" data-name="middle Z" class="cls-2" transform="translate(43.969 53.601) scale(0.172)">z</text>
+  <text id="top_Z" data-name="top Z" class="cls-3" transform="translate(68.995 28.906) scale(0.172)">z</text>
+</svg>
