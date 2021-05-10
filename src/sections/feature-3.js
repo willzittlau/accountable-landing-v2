@@ -10,24 +10,28 @@ const data = {
   title:
     'Create success',
   description:
-    'Holding yourself accountable to your goals is the key to building trust within yourself. With this trust comes confidence, and that confidence will allow you to reach those goals. Success is a lifestyle, and we help you maintain it.',
+    'Holding yourself accountable to your goals is the key to building trust within yourself. With this trust comes confidence, and that confidence will allow you to reach those goals. Success is a mindset, and we help you maintain it.',
     // btnName: 'Get in touch',
     // btnURL: 'mailto:hello@dovetaildigital.ca',
-    // points: [
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#83C1C0" />,
-    //     text: 'Unlimited design possibility',
-    //   },
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#83C1C0" />,
-    //     text: 'Boutique development experience',
-    //   },
-    // ],
+  // points: [
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: '3D modelling services',
+  //   },
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: 'Variety of filament materials and colors',
+  //   },
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: 'On demand printing',
+  //   },
+  // ],
 };
 
 export default function FeatureThree() {
   return (
-    <section sx={{ variant: 'section.customSoftware' }}>
+    <section sx={{ variant: 'section.featureThree' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ProfitThumb} alt="Thumbnail" width="700" height="565" />

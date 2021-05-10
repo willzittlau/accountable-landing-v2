@@ -81,15 +81,15 @@ export default {
       pt: '180px',
       pb: '50px'
     },
-    printing: {
+    featureOne: {
       py: [8, null, 9, null, null, 10],
       position: 'relative',
     },
-    shopify: {
+    featureTwo: {
       py: [8, null, 9, null, null, 10],
       position: 'relative',
     },
-    customSoftware: {
+    featureThree: {
       py: [8, null, 9, null, null, 10],
     },
   },
@@ -166,7 +166,7 @@ export default {
     },
     secondary: {
       fontWeight: 500,
-      color: '#00A99D',
+      color: '#A1887F',
       lineHeight: '40px',
     },
   },
@@ -251,7 +251,7 @@ export default {
       fontSize: [1, 2, 3],
       fontWeight: 'bold',
       '&:hover': {
-        boxShadow: 'rgba(249, 84, 84, 0.3) 0px 9px 20px -5px',
+        boxShadow: 'rgba(80, 10, 10, 0.3) 0px 9px 20px -5px',
       },
     },
     secondary: {

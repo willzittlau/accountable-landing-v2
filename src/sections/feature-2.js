@@ -13,29 +13,25 @@ const data = {
     'Whether that means starting that new activity and making it a part of your daily routine or cutting out an addiction, keeping yourself accountable will guide you towards a healthier life.',
     // btnName: 'Get in touch',
     // btnURL: 'mailto:hello@dovetaildigital.ca',
-    // points: [
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#7986CB" />,
-    //     text: '12/24 Hr Clock',
-    //   },
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#7986CB" />,
-    //     text: 'Sleep now',
-    //   },
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#7986CB" />,
-    //     text: 'Go to bed at',
-    //   },
-    //   {
-    //     icon: <IoIosCheckmarkCircle color="#7986CB" />,
-    //     text: 'Wake up at',
-    //   },
-    // ],
+  // points: [
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: '3D modelling services',
+  //   },
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: 'Variety of filament materials and colors',
+  //   },
+  //   {
+  //     icon: <IoIosCheckmarkCircle color="#A1887F" />,
+  //     text: 'On demand printing',
+  //   },
+  // ],
 };
 
 export default function FeatureTwo() {
   return (
-    <section sx={{ variant: 'section.shopify' }}>
+    <section sx={{ variant: 'section.featureTwo' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature

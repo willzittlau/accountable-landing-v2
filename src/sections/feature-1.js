@@ -32,7 +32,7 @@ const data = {
 
 export default function FeatureOne() {
   return (
-    <section sx={{ variant: 'section.printing' }} id="features">
+    <section sx={{ variant: 'section.featureOne' }} id="features">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ProfitThumb} alt="Thumbnail" width="700" height="565" />
