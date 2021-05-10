@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Box } from "theme-ui";
+import { jsx, Container} from "theme-ui";
 
 export default function Privacy() {
   return (

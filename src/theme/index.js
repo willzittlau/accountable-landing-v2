@@ -81,6 +81,10 @@ export default {
       pt: '30px',
       pb: '50px'
     },
+    instaFeed: {
+      pt: '30px',
+      pb: '30px'
+    },
     featureOne: {
       py: [8, null, 9, null, null, 10],
       position: 'relative',
