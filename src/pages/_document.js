@@ -16,6 +16,7 @@ class CustomDocument extends Document {
             as="font"
             crossOrigin=""
           />
+          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         </Head>
         <body>
           <Main />

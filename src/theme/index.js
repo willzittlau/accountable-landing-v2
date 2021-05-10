@@ -66,6 +66,7 @@ export default {
     },
     main: {
       minHeight: '50vh',
+      pt: '150px',
     },
   },
   section: {
@@ -73,12 +74,11 @@ export default {
       py: [8, null, 9, null, null, 10],
     },
     hero: {
-      pt: '150px',
       display: 'flex',
       minHeight: '100vh',
     },
     privacy: {
-      pt: '180px',
+      pt: '30px',
       pb: '50px'
     },
     featureOne: {
