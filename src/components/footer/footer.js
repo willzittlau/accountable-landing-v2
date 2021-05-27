@@ -7,7 +7,7 @@ import FooterLogo from 'assets/brand/footer-logo.svg';
 
 export default function Footer() {
   return (
-    <footer sx={styles.footer}>
+    <footer sx={styles.footer} id="footer">
       <Container>
         {/* <Grid sx={styles.widgets}>
           {data.widgets.map((item) => (
